@@ -1,5 +1,5 @@
 x=float(5)
-b=("GAurav")
+b=("Gaurav")
 print(type(b))
 
 a = float(x)
