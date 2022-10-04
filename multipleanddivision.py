@@ -6,3 +6,5 @@ d=a*b
 print("multiplying a and b",d)
 e=a/b
 print("division of a and b",e)
+f=a-b
+print("Substraction of a and b",f)
