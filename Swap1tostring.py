@@ -1,4 +1,4 @@
-a=input()
+a=input("Enter a Number")
 b=list(a)
 c=b[0]
 d=int(c)
