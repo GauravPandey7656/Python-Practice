@@ -1,4 +1,5 @@
-a = input("Enter what you find :-\n for eg. Triangle, Rectangle, Square and etc.")
+x=input("Hello World,\n Press Enter to Start finding.")
+a = input("Enter what you find :-\n for eg. Area of Triangle, Area of Rectangle, Area of Square and etc.")
 if (a=="Triangle"):
     s1=int(input("Enter side A:-"))
     s2=int(input("Enter side B:-"))
@@ -20,4 +21,6 @@ elif (a=="Square"):
     a=int(input("Enter the side of square :-"))
     sq=a**2
     print("Area of the Square is :-", sq)
-print("ThankYou for Using our Services. :) \n I thing Your query is Solve.\n Be Happy Always Smile")
+elif (a!="Triangle","Square","Rectangle"):
+    print("Your word enter the wrong way. \n Let's Correct it.\n For example if we finding the Area of Rectangle then Simply write ('Triangle' or 'Rectangle' or 'Square') Let's Try Again \n Please Rerun the Code and not doing any mistake. :)")
+print("ThankYou!")
