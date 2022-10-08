@@ -1,4 +1,4 @@
-print("Hello, Today we will find The Area of Triangle")
+print("Hello, Today we will find The Area of Triangle by using Heron's Formula")
 s1=int(input("Enter side A:-"))
 s2=int(input("Enter side B:-"))
 s3=int(input("Enter side C:-"))
