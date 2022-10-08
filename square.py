@@ -1,5 +1,5 @@
 a=int(input("Enter a number :-"))
-b=input("what do You want:- ")
+b=input("what do You want:-\n 'square' 'cube' 'power':- ")
 if (b=="square"):
     sq = a*a
     print("Square of the given number is:- ",sq)
