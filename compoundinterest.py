@@ -1,7 +1,7 @@
 P=int(input())
 T=int(input())
-R=int(input())
-a=(1+(R/1200))
-c=12*T
-CI=P*((a)**c)-P
+R=float(input())
+a=(1+R/100)**T
+A=a*P
+CI=A-P
 print("{:.2f}".format(CI))
