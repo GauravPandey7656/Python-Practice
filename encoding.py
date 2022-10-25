@@ -1,0 +1,5 @@
+a=input()
+a=str(a)
+a=list(a)
+if 5==len(a):
+    print(a[0]+"#"+a[1]+"#"+a[2]+"#"+a[3]+"#"+a[4])
